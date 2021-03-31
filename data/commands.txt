@@ -1,0 +1,22 @@
+$ conda activate rumor_detector
+$ python --version
+	Python 3.8.2
+$ pip install pycld2-0.41-cp38-cp38-win_amd64.whl
+	Processing c:\users\asus\desktop\personal\projects\rumor_detector\pycld2-0.41-cp38-cp38-win_amd64.whl
+	Installing collected packages: pycld2
+	Successfully installed pycld2-0.41
+$  conda install -c conda-forge icu=58.1
+	...
+
+$ pip install PyICU-2.4.3-cp38-cp38-win_amd64.whl
+	...
+$ ls
+	data/  polyglot-master/  PyICU-2.4.3-cp38-cp38-win_amd64.whl
+$ cd polyglot-master
+$ ls
+	AUTHORS.rst       docs/        LICENSE   MANIFEST.in  notebooks/  README.rst        rtd_requirements.txt  setup.py*  tox.ini
+	CONTRIBUTING.rst  HISTORY.rst  Makefile  nb2rst.sh*   polyglot/   requirements.txt  setup.cfg             tests/
+$ python setup.py install
+$ pip list | grep poly
+	polyglot                           16.7.4
+
